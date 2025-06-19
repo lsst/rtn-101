@@ -11,7 +11,7 @@ Introduction
 
 Rubin's Data Release Processing (DRP) campaigns are performed using computing and storage resources located at several data processing facilities collectively known as the Rubin Data Facilities, hosted and operated by several organizations.
 
-Before a campaign can start, specific input data relevant for the campaign (e.g. raw exposures, calibration data, reference catalogs) must be present at each facility and ingested into a local Data Butler repository. Once the input data set is ready, the Campaign Management team can conduct the execution of the campaign proper, which is typically composed of several stages or varying complexity and length. The image processing algorithms executed at each stage generate either intermediate data products intended to be consumed by another stage downstream or final products intended to be included in the data release. The final products generated in the context of the campaign are transferred to the US Data Facility (USDF) where they are combined into a consistent data release which is eventually made available to the scientific community.
+Before a campaign can start, specific input data relevant for the campaign (e.g. raw exposures, calibration data, reference catalogs) must be present at each facility and ingested into a local Data Butler repository. Once the input data set is ready, the Campaign Management team can conduct the execution of the campaign proper, which is typically composed of several stages of varying complexity and length. The image processing algorithms executed at each stage generate either intermediate data products intended to be consumed by another stage downstream or final products intended to be included in the data release. The final products generated in the context of the campaign are transferred to the US Data Facility (USDF) where they are combined into a consistent data release which is eventually made available to the scientific community.
 
 In the sections below we present in some detail how the input data gets distributed to the processing facilities and how it is ingested into the campaign's butler repository for a typical campaign.
 
@@ -84,6 +84,7 @@ The steps for creating the Butler repository are conceptually the same for all t
 - ingestion of calibration data
 - definition of the sky map
 - ingestion of reference catalogs
+- ingestion of other ancillary data
 - definition of visits
 - creation and arrangement of Butler collections
 
