@@ -88,7 +88,7 @@ The steps for creating the Butler repository are conceptually the same for all t
 - definition of visits
 - creation and arrangement of Butler collections
 
-The specifics for each of those steps depend on the campaign and are the subject of dedicated documents (e.g. `RTN-100`_).
+The specifics for each of those steps depend on the campaign and are the subject of dedicated documents (e.g. `RTN-100`_, `RTN-103`_).
 
 
 Consolidation of Data Products in the Archive Center
@@ -107,3 +107,4 @@ The same mechanism is used to consolidate some intermediate products, which alth
 .. _DMTN-306: https://dmtn-306.lsst.io
 .. _DMTN-213: https://dmtn-213.lsst.io
 .. _RTN-100: https://rtn-100.lsst.io
+.. _RTN-103: https://rtn-103.lsst.io
